@@ -8,9 +8,30 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-deocration: none;
+section {
+  padding-top: 1.5em;
+  text-align:center;
+}
+
+div {
   display: inline-block;
-  border: 2px solid;
-  border-radius: 1px;
+  max-width: 25em;
+  padding: 0.9em;
+  text-align:left;
+  vertical-align: middle;
+}
+
+img {
+  display: inline-block;
+  max-width: 25em;
+  width: 100%;;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display:inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:0.5em;
 }
